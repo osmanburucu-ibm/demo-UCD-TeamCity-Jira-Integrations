@@ -29,7 +29,7 @@ Create new Component:
 * Repository URL: <http://192.168.62.1:8111>
 * User: admin
 * Password: admin
-* Build comfiguration ID: SimpleJavaMavenApp_Build
+* Build configuration ID: SimpleJavaMavenApp_Build
 * Copy to CodeStation: Y
 * REST default
 * Version Property Definition:
@@ -42,8 +42,8 @@ Create new Component:
 
 ---
 
-* Create property at Ressource Level for JIRA URL
-  * ![UCD Ressource Property](images/UCD-Ressource-property.png)
+* Create property at Resource Level for JIRA URL
+  * ![UCD Resource Property](images/UCD-Ressource-property.png)
   * using it with:
     * ${p:resource/jira_url}
 
@@ -70,7 +70,7 @@ Start Task Details:
 
 ---
 
-After successfull deployment the Issue/Task/Ticket will be set to "In Review"
+After successful deployment the Issue/Task/Ticket will be set to "In Review"
 Start Review Details:
 ![Component Deployment Process](images/UCD_Component-Deploy-Process-StartReview.png)
 

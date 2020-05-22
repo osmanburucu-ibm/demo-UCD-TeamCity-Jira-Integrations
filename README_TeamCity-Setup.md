@@ -46,11 +46,11 @@ But as we need also the TeamCity-Agent we will use a Docker-Compose file (see be
 
 ### How to use [docker-compose.yml](tc/docker-compose.yml)
 
-I have found this article which helped me to create my docker-comose file:
+I have found this article which helped me to create my docker-compose file:
 
 * <https://nad.dev/posts/2020/01/06/teamcity-server-agent-docker.html>
 
-Here the docker-compse.yml in detail:
+Here the docker-compose.yml in detail:
 
 ~~~yaml
 version: "3"
@@ -109,7 +109,7 @@ Version Control System Settings:
 Build Step:
 ![Build Step Maven](images/03-Project-Build_Step_Maven.png)
 
-### Dependend Project to Trigger Urbancode Component Version Import
+### Dependent Project to Trigger Urbancode Component Version Import
 
 Configuration Information
 
